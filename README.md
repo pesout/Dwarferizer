@@ -1,0 +1,3 @@
+# Dwarferizer - Lossless Compression Algorithm
+
+
