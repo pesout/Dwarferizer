@@ -1,0 +1,76 @@
+/*
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body
+{
+background:#2ecc71;
+font-family: 'Inconsolata', monospace;
+font-weight: bold;
+text-align:center;
+padding:20px;
+}
+
+textarea
+{
+outline: none;
+font-family: 'Inconsolata', monospace;
+font-size:11pt;
+border:0px;
+padding:5px;
+resize:none;
+width:90%;
+max-width:500px;
+height:200px;
+}
+
+h1
+{
+font-size:20pt;
+margin-bottom:15px;
+}
+
+#statistics
+{
+text-align:left;
+font-weight:normal;
+margin-top:50px;
+}
+
+#button
+{
+border:none;
+font-family: 'Inconsolata', monospace;
+font-size:15px;
+color:black;
+background-color:#dedede;
+border:0px;
+margin-top:5px;
+width:45%;
+max-width:251px;
+height:40px;
+font-weight:bold;
+}
+
+#button2
+{
+border:none;
+font-family: 'Inconsolata', monospace;
+font-size:15px;
+color:black;
+background-color:#dedede;
+border:0px;
+margin-top:5px;
+width:45%;
+max-width:251px;
+height:40px;
+font-weight:bold;
+}
+
+strong {font-weight:bold;}

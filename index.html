@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<!--
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+-->
+
+<html>
+<head>
+	<meta http-equiv="Content-Language" content="cs">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>Compression</title>
+	
+</head>
+<body>
+	
+<form name="formular" onsubmit="return false">
+<h1>Loseless Compression Algorithm</h1>	
+<br><textarea type="text" placeholder="Insert your input here..." name="input" onclick="if (compressed) {this.select();}"></textarea><br>
+
+<input type="submit" value="Compress" onclick="compression();" id="button">
+<input type="submit" value="Reset" id="button2" onclick="window.location.href='index.html'">
+
+</form>
+<br>
+<div id="statistics">&nbsp;</div>
+
+<script src="program.js"></script>
+</body>
+</html>
