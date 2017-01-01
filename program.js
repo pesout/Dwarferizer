@@ -27,15 +27,16 @@ var compressed = 0;
 
 //Main function		
 function compression() {
-	//length_in = document.formular.input.value.length; //For statistics
+	length_in = document.formular.input.value.length; //For statistics
 	a = document.formular.input.value;  //Replacing Base64 input with Oct number
+	a = tab_in(a); // [lib/table.js]
 	
 	//Compression
-	//a = first(a); //First method		
+	a = first(a); //First method		
 
 	//Statistics displaying and ending
 	document.formular.input.value = tab_out(a);	//Replacing Oct number with Base64 code 
-	stat();	
+	stat();	//Statistics displaying
 }
 
 
