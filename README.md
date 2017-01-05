@@ -6,7 +6,7 @@ Input data are interpreted in different ways and the algorithm is searching for 
 ## Algorithm
 
 ### Input data
-Input and output format is Base64.
+Input and output format is Base64. This encoding uses 64 different chars - it means lowercase and uppercase letters of English aphabet (52), numbers (10), the slash sign and the plus sign.
 
 **The Dwarferizer hasn't ready to use yet. But don't worry, we are coding as fast as possible.**
 
