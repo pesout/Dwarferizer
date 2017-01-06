@@ -11,8 +11,8 @@
 
 var bigint_ok = 0; document.write('<script src="lib/bigint.js"></script>');  //BigInt by Peter Olson [bigInt]
 var transfer_ok = 0; document.write('<script src="lib/transfer.js"></script>');  //Numeral system transfer tool [transfer(tr_in, tr_in_r, tr_out_r)]
-var first_method_ok = 0; document.write('<script src="lib/first_method.js"></script>'); //First method [first]
 var table_ok = 0; document.write('<script src="lib/table.js"></script>'); //Replacing functions [tab_in/tab_out]
+var first_method_ok = 0; document.write('<script src="lib/first_method.js"></script>'); //First method [first]
 document.write('<script src="lib/statistics.js"></script>');  //Statistics displayer [stat]
 
 
