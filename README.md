@@ -13,9 +13,12 @@ Because of often transfers between numeral systems is good to make an estimation
 
 ![The formula to make compression process faster](https://raw.githubusercontent.com/pesout/Dwarferizer/master/formula.png)
 
-- `s` - numeral system base of input
-- `r` - numeral system base of output
-- `|x|` - length of x
+- `s` - a numeral system base of input
+- `r` - a numeral system base of output
+- `|x|` - the length of `x`
+
+### Table.js - from Base64 to an Oct number and back
+All values from Base64 fits into a table of 8 columns and 8 rows.
 
 
 **The Dwarferizer hasn't ready to use yet. But don't worry, we are coding as fast as possible.**
