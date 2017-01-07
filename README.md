@@ -11,7 +11,12 @@ Input/output format is Base64. This encoding uses 64 different chars - it means 
 ### A formula to make compression process faster
 Because of often transfers between numeral systems is good to make an estimation if it worths. This formula can tell us approximate length after the transfer.
 
-|x<sub>s</sub>|&nbsp;×&nbsp;log<sub>r</sub>(s)&nbsp;=&nbsp;|x<sub>r</sub>|
+![The formula to make compression process faster](https://raw.githubusercontent.com/pesout/Dwarferizer/master/formula.png)
+
+- s - numeral system base of input
+- r - numeral system base of output
+- |x| - length of x
+
 
 **The Dwarferizer hasn't ready to use yet. But don't worry, we are coding as fast as possible.**
 
