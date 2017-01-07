@@ -13,9 +13,9 @@ Because of often transfers between numeral systems is good to make an estimation
 
 ![The formula to make compression process faster](https://raw.githubusercontent.com/pesout/Dwarferizer/master/formula.png)
 
-- s - numeral system base of input
-- r - numeral system base of output
-- |x| - length of x
+- `s` - numeral system base of input
+- `r` - numeral system base of output
+- `|x|` - length of x
 
 
 **The Dwarferizer hasn't ready to use yet. But don't worry, we are coding as fast as possible.**
