@@ -21,15 +21,15 @@ Because of often transfers between numeral systems is good to make an estimation
 All values from Base64 fits into a table of 8 columns and 8 rows. The table is here only for an imagination, actually it works converting input chars to it's ASCII codes - this method is used: `str.charCodeAt()`.
 
 |   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|:---:|---|---|---|---|---|---|---|---|
-| 0 | A | B | C | D | E | F | G | H |
-| 1 | I | J | K | L | M | N | O | P |
-| 2 | Q | R | S | T | U | V | W | X |
-| 3 | Y | Z | a | b | c | d | e | f |
-| 4 | g | h | i | j | k | l | m | n |
-| 5 | o | p | q | r | s | t | u | v |
-| 6 | w | x | y | z | 0 | 1 | 2 | 3 |
-| 7 | 4 | 5 | 6 | 7 | 8 | 9 | + | / |
+|---|---|---|---|---|---|---|---|---|
+| <b>0</b> | A | B | C | D | E | F | G | H |
+| <b>1</b> | I | J | K | L | M | N | O | P |
+| <b>2</b> | Q | R | S | T | U | V | W | X |
+| <b>3</b> | Y | Z | a | b | c | d | e | f |
+| <b>4</b> | g | h | i | j | k | l | m | n |
+| <b>5</b> | o | p | q | r | s | t | u | v |
+| <b>6</b> | w | x | y | z | 0 | 1 | 2 | 3 |
+| <b>7</b> | 4 | 5 | 6 | 7 | 8 | 9 | + | / |
 
 
 **The Dwarferizer hasn't ready to use yet. But don't worry, we are coding as fast as possible.**
