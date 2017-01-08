@@ -18,7 +18,7 @@ Because of often transfers between numeral systems is good to make an estimation
 - `|x|` - the length of `x`
 
 ### Table.js - from Base64 to an Oct number and back
-All values from Base64 fits into a table of 8 columns and 8 rows. The table is here only for an imagination, actually it works converting input chars to it's ASCII codes.
+All values from Base64 fits into a table of 8 columns and 8 rows. The table is here only for an imagination, actually it works converting input chars to it's ASCII codes - this method is used: `str.charCodeAt()`.
 
 
 **The Dwarferizer hasn't ready to use yet. But don't worry, we are coding as fast as possible.**
