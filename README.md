@@ -18,10 +18,10 @@ Because of often transfers between numeral systems is good to make an estimation
 - `|x|` - the length of `x`
 
 ### Table.js - from Base64 to an Oct number and back
-All values from Base64 fits into a table of 8 columns and 8 rows. The table is here only for an imagination, actually it works converting input chars to it's ASCII codes - this method is used: `str.charCodeAt()`.
+All values from Base64 fits into a table of 8 columns and 8 rows. The table is here only for an imagination, actually it works converting input chars to it's ASCII codes - check out an example below.
 
-|   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|---|---|---|---|---|---|---|---|---|
+|          | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|----------|---|---|---|---|---|---|---|---|
 | <b>0</b> | A | B | C | D | E | F | G | H |
 | <b>1</b> | I | J | K | L | M | N | O | P |
 | <b>2</b> | Q | R | S | T | U | V | W | X |
@@ -31,6 +31,19 @@ All values from Base64 fits into a table of 8 columns and 8 rows. The table is h
 | <b>6</b> | w | x | y | z | 0 | 1 | 2 | 3 |
 | <b>7</b> | 4 | 5 | 6 | 7 | 8 | 9 | + | / |
 
+Here is the example:
+
+```javascript
+var c = a.charCodeAt(pos);
+
+if (countiny_rang(c, 65, 90)) //True means an uppercase letter
+		{
+             d = c - 39;
+             d = transfer(d,10,8); //Converting to the Oct number
+		}
+```
+
+The `countiny_rang()` function returns `true` or `false`, if is `c` between 65 and 90 (or isn't). The subtraction (`d = c - 39;`) result transfered to the Oct numeral system gives us the same value as from the table.
 
 **The Dwarferizer hasn't ready to use yet. But don't worry, we are coding as fast as possible.**
 
