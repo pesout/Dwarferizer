@@ -48,7 +48,10 @@ The `countiny_rang()` function returns `true` or `false`, if is `c` between 65 a
 It means following: If is input e.g. `Hello`, appropriate output would be: `7063545405`.
 
 ### The "Info Chars"
-Below in this text as "IC". It means `n` chars in Base64 encoding (i.e. `64^n` combinations)
+Below in this text as "IC". It means `n` chars in Base64 encoding (i.e. `64^n` combinations), which are added where an output string starts and aren't compressed. It serves to save, how both compression methods (described below) were done - it can be considered as summarized statistics about the process. The length of `n` is changed depending on quantity of informations from the compression. Generally we can mention 2 facts - 1) it's tried to have `n` in as small length as possible; 2) the longer input the higher value of `n` (but there's exceptions, naturally).
+
+### First Compression Method
+The input is transfered to the binary system.
 
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
