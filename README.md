@@ -51,7 +51,11 @@ It means following: If is input e.g. `Hello`, appropriate output would be: `7063
 Below in this text as "IC". It means `n` chars in Base64 encoding (i.e. `64^n` combinations), which are added where an output string starts and aren't compressed. It serves to save, how both compression methods (described below) were done - it can be considered as summarized statistics about the process. The length of `n` is changed depending on quantity of informations from the compression. Generally we can mention 2 facts - 1) it's tried to have `n` in as small length as possible; 2) the longer input the higher value of `n` (but there's exceptions, naturally).
 
 ### First Compression Method
-The input is transfered to the binary system.
+The input is transfered to the binary system. After it, `0`s an `1`s are replaced by number of these chars. We're also working with the fact that this string never starts with the zero.
+
+Here is an example:
+Input: `110001111`
+Output: `234`
 
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
