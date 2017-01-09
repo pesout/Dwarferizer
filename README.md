@@ -1,14 +1,14 @@
 # The Dwarferizer - A Lossless Compression Algorithm
 
-## General description
+## General Description
 Input data are interpreted in different ways and the algorithm is searching for identical parts then. There are two compression methods - it helps to find the best combination (*method - parameters of the method - interpretation*), which makes data the smallest. After this are computed the most ideal combinations of this combinations to get the most interesting compression ratio - it means, unfortunatelly, when working with huge amount of data, it's needed to have enough computer power. On the contrary, decompression should be really fast and simple process.
 
 ## Algorithm
 
-### Input data
+### Input Data
 Input/output format is Base64. This encoding uses 64 different chars - it means lowercase and uppercase letters of English aphabet (52), numbers (10), the slash sign and the plus sign. We may find there also `=` chars, to make this string length divisible by 4. The algorithm writes number of equal signs to statistics and they're not compressed - we can consider it to be negligible. The main reason, why I use Base64 encoding is the fact, that 64 chars perfectly fits into a table of 8 rows and 8 columns - it's an easy way, how to get double-digit Oct number.
 
-### A formula to make compression process faster
+### A Formula to Make Compression Process Faster
 Because of often transfers between numeral systems is good to make an estimation if it worths. This formula can tell us approximate length after the transfer.
 
 ![The formula to make compression process faster](https://raw.githubusercontent.com/pesout/Dwarferizer/master/formula.png)
@@ -17,7 +17,7 @@ Because of often transfers between numeral systems is good to make an estimation
 - `r` - a numeral system base of output
 - `|x|` - the length of `x`
 
-### Table.js - from Base64 to an Oct number and back
+### Table.js - from Base64 to an Oct Number and Back
 All values from Base64 fits into a table of 8 columns and 8 rows. The table is here only for an imagination, actually it works converting input chars to it's ASCII codes - check out an example below.
 
 |          | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
@@ -46,6 +46,9 @@ if (countiny_rang(c, 65, 90)) //True means an uppercase letter
 The `countiny_rang()` function returns `true` or `false`, if is `c` between 65 and 90 (or isn't). The subtraction (`d = c - 39;`) result transfered to the Oct numeral system gives us the same value as from the table.
 
 It means following: If is input e.g. `Hello`, appropriate output would be: `7063545405`.
+
+### The "Info Chars"
+Below in this text as "IC". It means `n` chars in Base64 encoding (i.e. `64^n` combinations)
 
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
