@@ -45,6 +45,8 @@ if (countiny_rang(c, 65, 90)) //True means an uppercase letter
 
 The `countiny_rang()` function returns `true` or `false`, if is `c` between 65 and 90 (or isn't). The subtraction (`d = c - 39;`) result transfered to the Oct numeral system gives us the same value as from the table.
 
+It means following: If is input e.g. `Hello`, appropriate output would be: `7063545405`.
+
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
 ## Links
