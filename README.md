@@ -54,8 +54,9 @@ Below in this text as "IC". It means `n` chars in Base64 encoding (i.e. `64^n` c
 The input is transfered to the binary system. After it, `0`s an `1`s are replaced by number of these chars. We're also working with the fact that this string never starts with the zero.
 
 Here is an example:
-Input: `110001111`
-Output: `234`
+- Input: `110001111`
+- Output: `234`
+
 
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
