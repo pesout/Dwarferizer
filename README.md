@@ -66,8 +66,10 @@ Let me show you an example:
 Input (i.e. x): 37017(8)
 Transfer to binary numeral base: x(8) = 11111000001111(2)
 Replacing by number of these chars: 554
-TRansfer back to the Oct numeral base: 554(6) = 326(8)
+Transfer back to the Oct numeral base: 554(6) = 326(8)
 ```
+
+
 
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
