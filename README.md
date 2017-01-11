@@ -45,7 +45,12 @@ if (countiny_rang(c, 65, 90)) //True means an uppercase letter
 
 The `countiny_rang()` function returns `true` or `false`, if is `c` between 65 and 90 (or isn't). The subtraction (`d = c - 39;`) result transfered to the Oct numeral system gives us the same value as from the table.
 
-It means following: If is input e.g. `Hello`, appropriate output would be: `7063545405`.
+It means following:
+
+```
+Input : Hello
+Output: 7063545405
+```
 
 ### The "Info Chars"
 Below in this text as "IC". It means `n` chars in Base64 encoding (i.e. `64^n` combinations), which are added where an output string starts and aren't compressed. It serves to save, how both compression methods (described below) were done - it can be considered as summarized statistics about the process. The length of `n` is changed depending on quantity of informations from the compression. Generally we can mention 2 facts - 1) it's tried to have `n` in as small length as possible; 2) the longer input the higher value of `n` (but there's exceptions, naturally).
