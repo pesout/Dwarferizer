@@ -53,7 +53,16 @@ Below in this text as "IC". It means `n` chars in Base64 encoding (i.e. `64^n` c
 ### First Compression Method
 The input is transfered to the binary system. After it, `0`s an `1`s are replaced by number of these chars (check out an example below). We're also working with the fact that this string never starts with the zero.
 
-If this number equals something higher then 9, we use lowercase chars of the English alphabet. Although following situation isn't too likely, if is more then 35 one-type chars tohether, first method is cancelled. After it, the algorithm search for the highest char, add 1 to it and the result equals to a new numeral system base. Input is transfered back to the Oct numeral system (these records belongs to IC).
+If this number equals something higher then 9, we use lowercase chars of the English alphabet. Although following situation isn't too likely, if is more then 35 one-type chars tohether, first method is cancelled. After it, the algorithm search for the highest char, add 1 to it and the result equals to a new numeral system base. Input is transfered back to the Oct numeral system (these records belongs to IC). 
+
+Let me show you an example:
+
+```
+Input (i.e. x): 37017(8)
+Transfer to binary numeral base: x(8) = 11111000001111(2)
+Replacing by number of these chars: 554
+TRansfer back to the Oct numeral base: 554(6) = 326(8)
+```
 
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
