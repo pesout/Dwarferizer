@@ -71,6 +71,8 @@ Transfer back to the Oct numeral base: 554(6) = 326(8)
 
 This string adjustment isn't realized if `(ouput.length - x) ≥ 0`, naturally. Otherwise, the algorithm assign ouput to `x`.
 
+### Second Compression Method
+
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
 ## Links
