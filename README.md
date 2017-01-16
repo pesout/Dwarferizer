@@ -74,7 +74,7 @@ This string adjustment isn't realized if `(ouput.length - x) ≥ 0`, naturally. 
 ### Second Compression Method
 It's designed to work with numeral systems in the interval of `[9; 36]` to. Let's start with the base of 8. At first, the algorithm find out the most frequented pair. It's replaced by `9`. This result is transfered back to the Oct numeral system. After it, the length of the "new" string subtracted from the length of the former one. The result of this subtraction is saved with information, that it was the 9-based numeral system and pairs.
 
-It's very similar with trinity, quaternion etc. It depends on the input length how long will be the largest one - it's equals to `input/300` *(note: I consider this to be too coherent, but creating a better one)*. Pairs are an exception because they're searched every time. 
+It's very similar with trinity, quaternion etc. It depends on the input length how long will be the largest one - it's equals to `input/300` *(note: I consider this to be too coherent, but creating a better one)*. Pairs are an exception because they're searched every time. After this the algorithm transfer it to the Oct numeral system and count the difference between the input and ouput lenthts. This stuff is needed to be saved to the IC (with information of the size of the examined group).
 
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
