@@ -78,6 +78,8 @@ It's very similar with trinity, quaternion etc. It depends on the input length h
 
 Now we have something like a table of the groups and differences. It's chosen and saved only information about the biggest diffrence.
 
+Let me explain how replacing witin numeral systems of bigger bases works. It's almost the same situation as the explained one above, but it's searched for more redundant number groups, which are replaced with chars from the appropriate numeral system.
+
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
 ## Links
