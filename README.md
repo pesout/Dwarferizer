@@ -76,6 +76,8 @@ It's designed to work with numeral systems in the interval of `[9; 36]` to. Let'
 
 It's very similar with trinity, quaternion etc. It depends on the input length how long will be the largest one - it's equals to `input/300` *(note: I consider this to be too coherent, but creating a better one)*. Pairs are an exception because they're searched every time. After this the algorithm transfer it to the Oct numeral system and count the difference between the input and ouput lenthts. This stuff is needed to be saved to the IC (with information of the size of the examined group).
 
+Now we have something like a table of the groups and differences. It's chosen and saved only information about the biggest diffrence.
+
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
 ## Links
