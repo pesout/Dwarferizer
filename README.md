@@ -80,6 +80,11 @@ Now we have something like a table of the groups and differences. It's chosen an
 
 Let me explain how replacing witin numeral systems of bigger bases works. It's almost the same situation as the explained one above, but it's searched for more redundant number groups, which are replaced with chars from the appropriate numeral system.
 
+It means, in a numeral system based with `r` will be replaced `r–8` most common groups using chars out of the Oct one. When done, is the output string transferer back to the numeral system based with `8`. This is processed in every numeral system according to the interval above. 
+
+### String Division
+Due to the expected severity, algorithm may divide the string to several sub-strings. When this happen, it's needed to write it to the IC.
+
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
 ## Links
