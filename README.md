@@ -62,7 +62,7 @@ The input is transfered to the binary system. After it, `0`s an `1`s are replace
 
 If this number equals something higher then 9, we use lowercase chars of the English alphabet. Although following situation isn't too likely, if is more then 35 one-type chars tohether, first method is cancelled. After it, the algorithm search for the highest char, add 1 to it and the result equals to a new numeral system base. Input is transfered back to the Oct numeral system (these records belongs to IC). 
 
-Let me show you an example:
+Check out this example:
 
 ```
 Input (i.e. x): 37017(8)
