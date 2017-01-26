@@ -94,7 +94,7 @@ Due to the expected severity, algorithm may divide the string to several sub-str
 ### Compression Process
 Let's summarize, what we have in the IC:
 1. How many times was the first method successful including information about transfering between numeral systems;
-
+2. In second method, what combination of lengths of groups in what numeral systems returns (after transfering back to he Oct numeral system) the shortest output - and if this output string isn't longer then the input one.
 
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
