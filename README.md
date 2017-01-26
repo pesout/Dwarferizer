@@ -91,6 +91,10 @@ Here is an example for the 11-based numeral system and pairs:
 ### String Division
 Due to the expected severity, algorithm may divide the string to several sub-strings. When this happen, it's needed to write it to the IC.
 
+### Compression (Thanks to the Previous Calculation)
+Let's summarize, what we have in the IC.
+
+
 **The Dwarferizer isn't ready to use. But don't worry, we are coding as fast as possible.**
 
 ## Links
